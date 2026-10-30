@@ -1,0 +1,57 @@
+{
+  "_observacao": "Coordenadas aproximadas, so para posicionar os pinos no mapa. URLs de fonte sao os dominios oficiais; trocar pela pagina exata antes da Sprint 2.",
+  "areas": [
+    { "id_area": 1, "nm_area": "Saúde", "ds_area": "Medicina nuclear, radiofármacos e radioterapia", "cor": "#FF6B8B" },
+    { "id_area": 2, "nm_area": "Indústria", "ds_area": "Ciclo do combustível, mineração e enriquecimento", "cor": "#FFB400" },
+    { "id_area": 3, "nm_area": "Agricultura", "ds_area": "Controle de pragas e pesquisa agrícola", "cor": "#7ED957" },
+    { "id_area": 4, "nm_area": "Pesquisa Científica", "ds_area": "Reatores de pesquisa e radiação natural", "cor": "#5AB0FF" },
+    { "id_area": 5, "nm_area": "Energia", "ds_area": "Geração de energia elétrica e propulsão", "cor": "#B38CFF" }
+  ],
+  "pontos": [
+    { "id_ponto": 1, "id_area": 1, "nm_titulo": "Radiofármacos do IPEN", "ds_resumo": "Principal produtor de radiofármacos da medicina nuclear no Brasil, usados em diagnóstico e tratamento.", "ds_curiosidade": "O tecnécio-99m, feito do Mo-99 importado, está em cerca de 80% dos procedimentos de medicina nuclear do país.", "tp_ponto": "INSTALACAO", "nm_cidade": "São Paulo", "sg_uf": "SP", "nr_latitude": -23.5586, "nr_longitude": -46.7360, "ds_url_fonte": "https://www.ipen.br" },
+    { "id_ponto": 2, "id_area": 1, "nm_titulo": "Reator Multipropósito Brasileiro (RMB)", "ds_resumo": "Reator em obras desde 2025 que vai produzir radiofármacos e apoiar a pesquisa. Criticalidade prevista para 2032.", "ds_curiosidade": "O Brasil faz cerca de 2 milhões de procedimentos com radiofármacos por ano, um terço da necessidade, segundo a CNEN.", "tp_ponto": "INSTALACAO", "nm_cidade": "Iperó", "sg_uf": "SP", "nr_latitude": -23.3500, "nr_longitude": -47.6900, "ds_url_fonte": "https://www.gov.br/cnen" },
+    { "id_ponto": 3, "id_area": 5, "nm_titulo": "Aramar: ciclo do combustível e LABGENE", "ds_resumo": "Centro da Marinha onde se desenvolve o ciclo do combustível nuclear e se constrói o LABGENE, protótipo em terra da planta do submarino.", "ds_curiosidade": "O Programa Nuclear da Marinha é desenvolvido desde 1979 pelo CTMSP.", "tp_ponto": "INSTALACAO", "nm_cidade": "Iperó", "sg_uf": "SP", "nr_latitude": -23.4000, "nr_longitude": -47.6200, "ds_url_fonte": "https://www.marinha.mil.br" },
+    { "id_ponto": 4, "id_area": 2, "nm_titulo": "Enriquecimento de urânio da INB", "ds_resumo": "Unidade da INB em Resende que enriquece urânio com tecnologia do CTMSP e do IPEN para abastecer Angra.", "ds_curiosidade": "Dominar o ciclo do combustível dá autonomia tecnológica ao país.", "tp_ponto": "INSTALACAO", "nm_cidade": "Resende", "sg_uf": "RJ", "nr_latitude": -22.4690, "nr_longitude": -44.4470, "ds_url_fonte": "https://www.gov.br/cnen" },
+    { "id_ponto": 5, "id_area": 5, "nm_titulo": "Angra 1 e 2", "ds_resumo": "Usinas da Central Nuclear Almirante Álvaro Alberto, que geram energia elétrica.", "ds_curiosidade": "A energia nuclear tem baixa emissão de gases de efeito estufa, mas só 44,9% dos brasileiros sabem disso, segundo pesquisa de 2026.", "tp_ponto": "INSTALACAO", "nm_cidade": "Angra dos Reis", "sg_uf": "RJ", "nr_latitude": -23.0080, "nr_longitude": -44.4580, "ds_url_fonte": "https://www.gov.br/cnen" },
+    { "id_ponto": 6, "id_area": 2, "nm_titulo": "Mineração de urânio da INB", "ds_resumo": "Mineração de urânio em Caetité, a primeira etapa do ciclo do combustível nuclear.", "ds_curiosidade": "Do minério ao combustível, o urânio passa por várias etapas, e o enriquecimento acontece em Resende.", "tp_ponto": "INSTALACAO", "nm_cidade": "Caetité", "sg_uf": "BA", "nr_latitude": -14.0690, "nr_longitude": -42.4770, "ds_url_fonte": "https://www.gov.br/cnen" },
+    { "id_ponto": 7, "id_area": 3, "nm_titulo": "Moscamed: técnica do inseto estéril", "ds_resumo": "Usa radiação para esterilizar insetos e controlar pragas na agricultura.", "ds_curiosidade": "O inseto esterilizado é solto no campo e não gera descendentes, o que reduz a praga sem inseticida.", "tp_ponto": "INSTALACAO", "nm_cidade": "Juazeiro", "sg_uf": "BA", "nr_latitude": -9.4163, "nr_longitude": -40.5030, "ds_url_fonte": "https://www.gov.br/cnen" },
+    { "id_ponto": 8, "id_area": 3, "nm_titulo": "CENA/USP: técnicas nucleares na agricultura", "ds_resumo": "Centro da USP que usa técnicas nucleares em pesquisa agrícola.", "ds_curiosidade": "Técnicas nucleares ajudam a estudar solo, plantas e nutrição.", "tp_ponto": "INSTALACAO", "nm_cidade": "Piracicaba", "sg_uf": "SP", "nr_latitude": -22.7253, "nr_longitude": -47.6492, "ds_url_fonte": "https://www.usp.br" },
+    { "id_ponto": 9, "id_area": 4, "nm_titulo": "Reator de pesquisa TRIGA do CDTN", "ds_resumo": "Reator de pesquisa usado em ensino e estudos científicos.", "ds_curiosidade": "Reatores de pesquisa não geram energia elétrica. Servem para estudos e aplicações científicas.", "tp_ponto": "INSTALACAO", "nm_cidade": "Belo Horizonte", "sg_uf": "MG", "nr_latitude": -19.8720, "nr_longitude": -43.9680, "ds_url_fonte": "https://www.gov.br/cnen" },
+    { "id_ponto": 10, "id_area": 4, "nm_titulo": "Areias monazíticas de Meaípe", "ds_resumo": "Praias de areia monazítica com radiação natural elevada, estudadas por pesquisadores da USP.", "ds_curiosidade": "Em Meaípe, uma torre da USP com a UFES mede radiação gama desde 2019.", "tp_ponto": "NATURAL", "nm_cidade": "Guarapari", "sg_uf": "ES", "nr_latitude": -20.6772, "nr_longitude": -40.4975, "ds_url_fonte": "https://www.usp.br" },
+    { "id_ponto": 11, "id_area": 1, "nm_titulo": "Acidente com césio-137 (1987)", "ds_resumo": "Catadores levaram um aparelho de radioterapia abandonado a um ferro-velho, onde a cápsula de césio-137 foi rompida.", "ds_curiosidade": "112,8 mil pessoas foram monitoradas, 249 tiveram exposição identificada e quatro morreram.", "tp_ponto": "HISTORICO", "nm_cidade": "Goiânia", "sg_uf": "GO", "nr_latitude": -16.6869, "nr_longitude": -49.2648, "ds_url_fonte": "https://www.gov.br/cnen" }
+  ],
+  "missoes": [
+    { "id_missao": 1, "id_ponto": 1, "ds_afirmacao": "O IPEN produz a maior parte dos radiofármacos usados na medicina nuclear do Brasil.", "st_resposta": "V", "ds_explicacao": "Verdade. O IPEN, em São Paulo, é o principal produtor de radiofármacos do país, usados em diagnóstico e tratamento.", "nr_dificuldade": 1, "ds_url_fonte": "https://www.ipen.br" },
+    { "id_missao": 2, "id_ponto": 2, "ds_afirmacao": "O Brasil atende hoje toda a necessidade de procedimentos com radiofármacos.", "st_resposta": "M", "ds_explicacao": "Mito. São cerca de 2 milhões de procedimentos por ano, o que segundo a CNEN é um terço da necessidade. O RMB foi planejado para ampliar a produção.", "nr_dificuldade": 2, "ds_url_fonte": "https://www.gov.br/cnen" },
+    { "id_missao": 3, "id_ponto": 3, "ds_afirmacao": "A Marinha desenvolve o ciclo do combustível nuclear e o LABGENE no centro de Aramar.", "st_resposta": "V", "ds_explicacao": "Verdade. Em Aramar, o Programa Nuclear da Marinha trabalha no ciclo do combustível e no LABGENE, protótipo em terra da planta do submarino.", "nr_dificuldade": 2, "ds_url_fonte": "https://www.marinha.mil.br" },
+    { "id_missao": 4, "id_ponto": 4, "ds_afirmacao": "A tecnologia de enriquecimento de urânio usada pela INB em Resende tem participação do CTMSP.", "st_resposta": "V", "ds_explicacao": "Verdade. A tecnologia foi desenvolvida com participação do CTMSP e do IPEN e abastece o combustível de Angra.", "nr_dificuldade": 2, "ds_url_fonte": "https://www.marinha.mil.br" },
+    { "id_missao": 5, "id_ponto": 5, "ds_afirmacao": "Usinas nucleares emitem grande quantidade de gases de efeito estufa ao gerar energia.", "st_resposta": "M", "ds_explicacao": "Mito. A geração nuclear tem baixa emissão de gases de efeito estufa. Em pesquisa de 2026, só 44,9% dos brasileiros sabiam disso.", "nr_dificuldade": 2, "ds_url_fonte": "https://www.iaea.org" },
+    { "id_missao": 6, "id_ponto": 7, "ds_afirmacao": "A radiação pode ser usada para esterilizar insetos e controlar pragas na agricultura.", "st_resposta": "V", "ds_explicacao": "Verdade. É a técnica do inseto estéril: os insetos soltos no campo não geram descendentes, e a praga diminui.", "nr_dificuldade": 1, "ds_url_fonte": "https://www.gov.br/cnen" },
+    { "id_missao": 7, "id_ponto": 10, "ds_afirmacao": "A radiação natural só existe perto de instalações nucleares.", "st_resposta": "M", "ds_explicacao": "Mito. Todo mundo recebe radiação natural, em média 2,4 mSv por ano no mundo. Em lugares como Guarapari ela é mais elevada.", "nr_dificuldade": 1, "ds_url_fonte": "https://www.unscear.org" },
+    { "id_missao": 8, "id_ponto": 11, "ds_afirmacao": "O acidente de Goiânia, em 1987, começou com um aparelho de radioterapia abandonado.", "st_resposta": "V", "ds_explicacao": "Verdade. Catadores levaram o aparelho a um ferro-velho e a cápsula de césio-137 foi rompida. O caso mostra por que fontes radioativas precisam de controle.", "nr_dificuldade": 1, "ds_url_fonte": "https://www.gov.br/cnen" },
+    { "id_missao": 9, "id_ponto": 8, "ds_afirmacao": "Alimento irradiado se torna radioativo.", "st_resposta": "M", "ds_explicacao": "Mito. A irradiação de alimentos não torna o alimento radioativo. A radiação passa pelo alimento e ajuda a eliminar microrganismos.", "nr_dificuldade": 3, "ds_url_fonte": "https://www.iaea.org" },
+    { "id_missao": 10, "id_ponto": 1, "ds_afirmacao": "Um raio X de tórax expõe a pessoa a mais radiação que uma tomografia de tórax.", "st_resposta": "M", "ds_explicacao": "Mito. O raio X de tórax é cerca de 0,1 mSv e a tomografia de tórax cerca de 6,1 mSv. Os dois são pedidos quando o benefício supera o risco.", "nr_dificuldade": 3, "ds_url_fonte": "https://www.gov.br/cnen" }
+  ],
+  "perfil_exemplo": {
+    "nm_usuario": "Júlia",
+    "tp_perfil": "ESTUDANTE",
+    "xp_total": 120,
+    "nivel": 2,
+    "insignias": [
+      { "nome": "Primeiro Átomo", "conquistada": true },
+      { "nome": "Explorador da Saúde", "conquistada": true },
+      { "nome": "Detetive da Radiação", "conquistada": false },
+      { "nome": "Navegante da Amazônia Azul", "conquistada": false }
+    ]
+  },
+  "doseometro_referencias_msv": {
+    "natural_media_mundial_ano": 2.4,
+    "banana": 0.0001,
+    "raio_x_odontologico": 0.005,
+    "raio_x_torax": 0.1,
+    "voo_ida_e_volta_eua": 0.03,
+    "tomografia_cranio": 1.6,
+    "tomografia_torax": 6.1,
+    "limite_publico_ano": 1.0
+  }
+}
